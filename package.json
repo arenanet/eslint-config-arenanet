@@ -17,6 +17,8 @@
     "url": "https://github.com/arenanet/eslint-config-arenanet/issues"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^7.17.0",
+    "eslint-plugin-align-assignments": "^1.1.2",
+    "eslint-plugin-align-import": "^1.0.0"
   }
 }

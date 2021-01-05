@@ -3,7 +3,17 @@ module.exports = {
         "es6": true
     },
 
+    "plugins": [ "align-assignments", "align-import" ],
+
     "rules": {
+        ////////// Plugins //////////////////
+
+        // align variable declarations
+        "align-assignments/align-assignments": [ "warn", { "requiresOnly": false }],
+
+        // align import statements
+        "align-import/align-import": ["warn"],
+
         ////////// Possible Errors //////////
 
         // disallow trailing commas in object literals

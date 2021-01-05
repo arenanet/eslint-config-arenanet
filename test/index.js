@@ -1,20 +1,25 @@
 "use strict";
 
-const CLIEngine = require("eslint").CLIEngine;
-const cli = new CLIEngine({
-        configFile : "./eslintrc.js",
-        parserOptions : {
-            ecmaFeatures : {
-                modules : true
-            },
-            sourceType : "module"
+const { ESLint } = require("eslint");
+
+(async function main() {
+    const eslint = new ESLint({
+        baseConfig : require("../eslintrc"),
+        overrideConfig : {
+            parserOptions : {
+                    ecmaFeatures : {
+                    modules : true
+                },
+                sourceType : "module"
+            }
         }
     });
 
-const report = cli.executeOnFiles([ "./test/specimens/cjs.js", "./test/specimens/esm.js" ]);
-const formatter = cli.getFormatter();
-const results = process.argv[2] === "all" ? report.results : CLIEngine.getErrorResults(report.results);
+    const report = await eslint.lintFiles([ "./test/specimens/cjs.js", "./test/specimens/esm.js" ]);
+    const formatter = await eslint.loadFormatter();
 
-console.log(formatter(results));
-
-process.exit(report.errorCount);
+    console.log(formatter.format(report));
+})().catch((err) =>  {
+    process.exitCode = 1;
+    console.log(err);
+});
