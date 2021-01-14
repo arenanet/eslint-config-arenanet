@@ -2,7 +2,7 @@
 
 const thing = "test";
 const thing2 = "test";
-const { thing3 } = { thing3 : "test" };
+const { thing3 } = { thing3: "test" };
 
 let a,
     b,
