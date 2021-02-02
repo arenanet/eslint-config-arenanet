@@ -15,6 +15,6 @@ function test(a) {
     }
 }
 
-export default {
+export default{
     thing : test(m(sample))
 };

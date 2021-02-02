@@ -368,6 +368,9 @@ module.exports = {
                 },
                 "while": {
                     "after": true
+                },
+                "default": {
+                    "after": true
                 }
             }
         }],
