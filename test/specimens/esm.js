@@ -15,6 +15,11 @@ function test(a) {
     }
 }
 
+const reply = new Function();
+
+reply();
+reply.json({}, {});
+
 export default{
     thing : test(m(sample))
 };

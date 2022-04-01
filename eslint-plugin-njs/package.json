@@ -1,0 +1,8 @@
+{
+    "name": "eslint-plugin-njs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha tests/reply-with-request"
+    }
+  }
