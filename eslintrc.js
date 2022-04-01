@@ -3,7 +3,7 @@ module.exports = {
         "es6": true
     },
 
-    "plugins": [ "align-assignments", "align-import", "njs" ],
+    "plugins": [ "align-assignments", "align-import", "arenanet" ],
 
     "rules": {
         ////////// Plugins //////////////////
@@ -15,7 +15,7 @@ module.exports = {
         "align-import/align-import": ["warn"],
 
         // pass request with reply, default off, use overrides for Code
-        "njs/reply-with-request": "off",
+        "arenanet/reply-with-request": "off",
 
         ////////// Possible Errors //////////
 
