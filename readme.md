@@ -16,7 +16,7 @@ ESLint config for ArenaNet JS code
 `> npm test`  
 `> npm test -- all` (to show warnings)
 
-## eslint-plugin-njs
+## eslint-plugin-arenanet
 
 ### reply-with-request
 
@@ -27,9 +27,9 @@ Default config setting to off. To apply it to `Code/` files, use `overrides` in 
     overrides : [
         {
             files : "Code/**/*.js,
-            plugins : [ "njs" ],
+            plugins : [ "arenanet" ],
             "rules" {
-                "njs/reply-with-request" : 1
+                "arenanet/reply-with-request" : 1
             }
         }
     ]
