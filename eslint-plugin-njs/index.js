@@ -23,11 +23,7 @@ module.exports = {
 
                         const arg = baseReply ? node.arguments[0] : node.arguments[1];
 
-                        if (!arg) {
-                            return report(context, node);
-                        }
-
-                        if (!arg.properties) {
+                        if (!arg && !arg.properties) {
                             return report(context, node);
                         }
 
