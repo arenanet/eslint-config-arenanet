@@ -17,10 +17,12 @@
     "url": "https://github.com/arenanet/eslint-config-arenanet/issues"
   },
   "devDependencies": {
-    "eslint": "^7.17.0"
+    "eslint": "^7.17.0",
+    "mocha": "^9.2.2"
   },
   "dependencies": {
     "eslint-plugin-align-assignments": "^1.1.2",
-    "eslint-plugin-align-import": "^1.0.0"
+    "eslint-plugin-align-import": "^1.0.0",
+    "eslint-plugin-njs": "file:eslint-plugin-njs"
   }
 }
