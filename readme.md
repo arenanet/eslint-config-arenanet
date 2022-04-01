@@ -27,7 +27,7 @@ Default config setting to off. To apply it to `Code/` files, use `overrides` in 
     overrides : [
         {
             files : "Code/**/*.js,
-            plugin : [ "njs" ],
+            plugins : [ "njs" ],
             "rules" {
                 "njs/reply-with-request" : 1
             }

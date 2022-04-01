@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arenanet",
-  "version": "5.2.2",
+  "version": "5.3.0",
   "description": "ESLint config for ArenaNet JS",
   "main": "eslintrc.js",
   "keywords": [
