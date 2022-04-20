@@ -245,7 +245,7 @@ module.exports = {
             "caughtErrors": "none"
         } ],
         // disallow use of variables before they are defined
-        "no-use-before-define": "warn",
+        "no-use-before-define": "error",
 
         ////////// Node.js //////////
 

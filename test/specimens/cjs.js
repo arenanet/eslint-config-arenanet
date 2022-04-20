@@ -1,23 +1,21 @@
 "use strict";
 
-const thing = "test";
-const thing2 = "test";
-const { thing3 } = { thing3: "test" };
+const thing      = "test";
+const thing2     = "test";
+const { thing3 } = { thing3 : "test" };
 
-let a,
-    b,
-    arr = [];
+let arr = [],
+    a, b;
 
 (function() {
-    var tagged,
-        // template literal
-        template = `foo ${tagged}`,
-        boolean = Boolean(template),
+    let tagged;
 
-        obj = {
-            noquote     : true,
-            "yes-quote" : true
-        };
+    const template = `foo ${tagged}`;
+    const boolean  = Boolean(template);
+    const obj      = {
+        noquote     : true,
+        "yes-quote" : true
+    };
 
     function fn(...params) {
         return boolean;
