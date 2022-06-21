@@ -398,7 +398,7 @@ module.exports = {
         }],
         // limit the length of a line of code
         "max-len" : ["warn", {
-            "code" : 90
+            "code" : 120
         }],
         // require a capital letter for constructors
         "new-cap": "warn",
