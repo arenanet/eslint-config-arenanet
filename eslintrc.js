@@ -369,6 +369,9 @@ module.exports = {
                 "try": {
                     "after": true
                 },
+                "var": {
+                    "after": true
+                },
                 "while": {
                     "after": true
                 },
