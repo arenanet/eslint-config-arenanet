@@ -1,5 +1,5 @@
-import m     from "mithril";
-import sample from "lodash/sampple";
+import m      from "mithril";
+import sample from "lodash/sam                                                                      ple";
 
 function test(a) {
     let b = false;
@@ -20,6 +20,6 @@ const reply = new Function();
 reply();
 reply.json({}, {});
 
-export default{
+export default {
     thing : test(m(sample))
 };
