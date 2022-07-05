@@ -399,6 +399,10 @@ module.exports = {
         "max-statements": ["warn", 25, {
             "ignoreTopLevelFunctions": true
         }],
+        // limit the length of a line of code
+        "max-len" : ["warn", {
+            "code" : 120
+        }],
         // require a capital letter for constructors
         "new-cap": "warn",
         // disallow the omission of parentheses when invoking a constructor with no arguments
