@@ -18,7 +18,7 @@ ESLint config for ArenaNet JS code
 
 ## eslint-plugin-arenanet
 
-### reply-with-request
+### Backend rules
 
 Default config setting to off. To apply it to `Code/` files, use `overrides` in `.eslintrc`.
 
@@ -29,7 +29,8 @@ Default config setting to off. To apply it to `Code/` files, use `overrides` in 
             files : "Code/**/*.js,
             plugins : [ "arenanet" ],
             "rules" {
-                "arenanet/reply-with-request" : 1
+                "arenanet/reply-with-request" : 1,
+                "arenanet/use-strict-at-top-of-document": "warn"
             }
         }
     ]
