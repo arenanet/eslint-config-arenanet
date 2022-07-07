@@ -3,7 +3,6 @@
 const thing      = "test";
 const thing2     = "test";
 const { thing3 } = { thing3 : "test" };
-
 let arr = [],
     a, b;
 
@@ -49,7 +48,6 @@ let arr = [],
 
             return false;
         }
-
         return thing3;
     }
 
@@ -65,10 +63,12 @@ let arr = [],
         default:
             break;
     }
-
     for (let i in thing) {
         thing[i] = "fake";
     }
 
     return [ a, b ];
 }());
+
+module.exports.thing1 = thing1;
+module.exports.thing2 = thing2;

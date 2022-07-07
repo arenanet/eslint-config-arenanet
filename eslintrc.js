@@ -21,6 +21,24 @@ module.exports = {
 
         // disallow trailing commas in object literals
         "comma-dangle": "off",
+        // padding rules between different kinds of statements
+        "padding-line-between-statements": [
+            "warn",
+            { "blankLine" : "always", "prev" : "directive", "next" : "*" },
+            { "blankLine" : "always", "prev" : "block-like", "next" : "*" },
+            { "blankLine" : "always", "prev" : "cjs-export", "next" : "*" },
+            { "blankLine" : "always", "prev" : "class", "next" : "*" },
+            { "blankLine" : "always", "prev" : "function", "next" : "*" },
+            { "blankLine" : "always", "prev" : "*", "next" : "break" },
+            { "blankLine" : "always", "prev" : "*", "next" : "class" },
+            { "blankLine" : "always", "prev" : "*", "next" : "continue" },
+            { "blankLine" : "always", "prev" : "*", "next" : "export" },
+            { "blankLine" : "always", "prev" : "*", "next" : "function" },
+            { "blankLine" : "always", "prev" : "*", "next" : "throw" },
+            { "blankLine" : "always", "prev" : "*", "next" : "return" },
+            { "blankLine" : "always", "prev" : "*", "next" : "export" },
+            { "blankLine" : "any", "prev": "export", "next" : "export" }
+        ],
         // disallow assignment in conditional expressions
         "no-cond-assign": "error",
         // disallow use of console (off by default in the node environment)
