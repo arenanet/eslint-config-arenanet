@@ -20,6 +20,7 @@ const reply = new Function();
 reply();
 reply.json({}, {});
 
+export const thing1 = 1;
 export default {
     thing : test(m(sample))
 };
