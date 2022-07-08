@@ -22,6 +22,6 @@
   "dependencies": {
     "eslint-plugin-align-assignments": "^1.1.2",
     "eslint-plugin-align-import": "^1.0.0",
-    "eslint-plugin-arenanet": "^1.2.0"
+    "eslint-plugin-arenanet": "^1.2.1"
   }
 }
