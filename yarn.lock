@@ -231,10 +231,10 @@
   "resolved" "https://registry.npmjs.org/eslint-plugin-align-import/-/eslint-plugin-align-import-1.0.0.tgz"
   "version" "1.0.0"
 
-"eslint-plugin-arenanet@^1.2.1":
-  "integrity" "sha512-A0b09Lz4Os3NfHywQU/nXDc8Zou9LFPF6N/k1IaJPuAnpfVUEcYSqyy4NOywE1+29i3KYeWbmjk1zm3rFRhM5w=="
-  "resolved" "https://registry.npmjs.org/eslint-plugin-arenanet/-/eslint-plugin-arenanet-1.2.1.tgz"
-  "version" "1.2.1"
+"eslint-plugin-arenanet@^1.2.2":
+  "integrity" "sha512-G6HvRN1Mhl2yh4rtNFRIYUNJe/micfNm5hks0MqSJGaHVVXGD9q5LVqfgpye2nKjgHyG8P5r1HnXZK40qLrsIw=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-arenanet/-/eslint-plugin-arenanet-1.2.2.tgz"
+  "version" "1.2.2"
 
 "eslint-scope@^5.1.1":
   "integrity" "sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw=="
