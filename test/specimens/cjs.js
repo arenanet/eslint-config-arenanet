@@ -28,6 +28,10 @@ let arr = [],
         return arr.map(el => el.prop);
     }
 
+    [].map(el => {
+        return el;
+    });
+
     if (thing && thing2) {
         if (obj.test) {
             if (!obj.noTest) {
@@ -63,6 +67,7 @@ let arr = [],
         default:
             break;
     }
+
     for (let i in thing) {
         thing[i] = "fake";
     }
@@ -70,5 +75,5 @@ let arr = [],
     return [ a, b ];
 }());
 
-module.exports.thing1 = thing1;
+module.exports.thing1 = thing;
 module.exports.thing2 = thing2;

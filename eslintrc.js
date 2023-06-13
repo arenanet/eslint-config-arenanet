@@ -549,7 +549,7 @@ module.exports = {
         // Require curly braces around arrow bodies in most cases
         "arrow-body-style": ["warn", "as-needed"],
         // Require parentheses around arrow function params
-        "arrow-parens": ["off", "as-needed"],
+        // "arrow-parens": ["off", "as-needed"],
         // Require spaces on both sides of the => in an arrow function
         "arrow-spacing": "error",
         "constructor-super": "error",
