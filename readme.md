@@ -22,13 +22,13 @@ ESLint config for ArenaNet JS code
 
 Default config setting to off. To apply it to `Code/` files, use `overrides` in `.eslintrc`.
 
-```
+```js
 {
     overrides : [
         {
-            files : "Code/**/*.js,
+            files : "Code/**/*.js",
             plugins : [ "arenanet" ],
-            "rules" {
+            rules {
                 "arenanet/reply-with-request" : 1,
                 "arenanet/use-strict-at-top-of-document": "warn"
             }
