@@ -430,7 +430,7 @@ module.exports = {
         // require or disallow an empty newline before a return statement
         "newline-before-return": "warn",
         // require or disallow a newline per chained call
-        "newline-per-chained-call": "warn",
+        "newline-per-chained-call": "off",
         // disallow use of the Array constructor
         "no-array-constructor": "error",
         // disallow the usage of bitwise operators (|, &, <<, >>) as they're often an error
